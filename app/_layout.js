@@ -10,15 +10,16 @@ const App = () => {
       <Text>Hello</Text>
       <Text>Hello</Text>
     </View>
-  )
-}
+  );
+};
 
 export default App;
-
 
 const styles = StyleSheet.create({
   enoch: {
     flex: 1,
-    backgroundColor: "white"
+    backgroundColor: "white",
+    marginTop: 30,
+    paddingHorizontal: 10,
   },
 });
